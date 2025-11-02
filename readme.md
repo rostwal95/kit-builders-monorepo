@@ -29,17 +29,17 @@
 
 ## 📋 Table of Contents
 
-1. [Introduction](#-introduction)
-2. [Tech Stack](#️-tech-stack)
-3. [Features](#-features)
-4. [Quick Start](#-quick-start)
-5. [Architecture](#-architecture)
-6. [Project Structure](#-project-structure)
-7. [API Reference](#-api-reference)
-8. [Development Guide](#-development-guide)
-9. [Testing](#-testing)
-10. [Known Limitations](#-known-limitations)
-11. [Deployment](#-deployment)
+ * [Introduction](#-introduction)
+ * [Tech Stack](#️-tech-stack)
+ * [Features](#-features)
+ * [Quick Start](#-quick-start)
+ * [Architecture](#-architecture)
+ * [Project Structure](#-project-structure)
+ * [API Reference](#-api-reference)
+ * [Development Guide](#-development-guide)
+ * [Testing](#-testing)
+ * [Known Limitations](#-known-limitations)
+ * [Deployment](#-deployment)
 
 ## 🚀 Introduction
 
@@ -901,23 +901,6 @@ fly secrets set SECRET_KEY_BASE=$(rails secret)
 fly secrets set DATABASE_URL=postgres://...
 ```
 
-### Vercel Deployment (Web)
-
-```bash
-cd apps/web
-
-# Install Vercel CLI
-npm i -g vercel
-
-# Login
-vercel login
-
-# Deploy
-vercel --prod
-
-# Set environment variables in Vercel dashboard
-NEXT_PUBLIC_API_URL=https://your-api.fly.dev
-```
 
 ### Environment Variables (Production)
 
