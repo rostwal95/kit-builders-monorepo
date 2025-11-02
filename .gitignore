@@ -55,6 +55,13 @@ playwright/.cache/
 *.swp
 *.swo
 
+### Version managers & tooling
+.tool-versions.local
+.mise.local.toml
+.rtx.toml
+.mise/
+.rtx/
+
 ### Ruby / Rails
 .bundle/
 vendor/bundle/
