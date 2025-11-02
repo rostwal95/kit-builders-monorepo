@@ -902,30 +902,6 @@ fly secrets set DATABASE_URL=postgres://...
 ```
 
 
-### Environment Variables (Production)
-
-**API (Rails):**
-
-```bash
-DATABASE_URL=postgres://user:pass@host:5432/db
-REDIS_URL=redis://host:6379/0
-SECRET_KEY_BASE=<rails secret>
-RAILS_ENV=production
-RACK_ENV=production
-RAILS_SERVE_STATIC_FILES=true
-RAILS_LOG_TO_STDOUT=true
-```
-
-**Web (Next.js):**
-
-```bash
-NEXT_PUBLIC_API_URL=https://api.yourdomain.com
-NEXT_PUBLIC_APP_URL=https://yourdomain.com
-NODE_ENV=production
-```
-
----
-
 <div align="center">
   <br />
   <p><strong>⚠️ Prototype Disclaimer</strong></p>
