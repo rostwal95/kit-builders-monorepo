@@ -22,21 +22,24 @@
       Your browser does not support the video tag.
     </video>
   </div>
+    <br />
+</div>
 
 ## 📋 Table of Contents
 
- * [Introduction](#-introduction)
- * [Tech Stack](#️-tech-stack)
- * [Features](#-features)
- * [Quick Start](#-quick-start)
- * [Architecture](#-architecture)
- * [Project Structure](#-project-structure)
- * [API Reference](#-api-reference)
- * [Development Guide](#-development-guide)
- * [Testing](#-testing)
- * [Known Limitations](#-known-limitations)
- * [Deployment](#-deployment)
+- [🚀 Introduction](#-introduction)
+- [⚙️ Tech Stack](#-tech-stack)
+- [⚡ Features](#-features)
+- [🚀 Quick Start](#-quick-start)
+- [🏗️ Architecture](#-architecture)
+- [📁 Project Structure](#-project-structure)
+- [🔌 API Reference](#-api-reference)
+- [🛠️ Development Guide](#-development-guide)
+- [🧪 Testing](#-testing)
+- [⚠️ Known Limitations](#-known-limitations)
+- [🚢 Deployment](#-deployment)
 
+<a id="-introduction"></a>
 ## 🚀 Introduction
 
 This is a **full-stack monorepo** for a creator publishing platform, containing **40+ components and endpoints** built to demonstrate complete workflows for email marketing, landing page creation, audience management, and experimentation.
@@ -50,6 +53,7 @@ This is a **full-stack monorepo** for a creator publishing platform, containing 
 
 > **⚠️ Note:** This is a **prototype/POC**, not production-ready. Security hardening, comprehensive testing, and scalability considerations are intentionally deferred for rapid iteration.
 
+<a id="-tech-stack"></a>
 ## ⚙️ Tech Stack
 
 ### **Frontend** (Next.js App)
@@ -85,6 +89,7 @@ This is a **full-stack monorepo** for a creator publishing platform, containing 
 - **MailHog** – Local SMTP server for email testing
 - **MinIO** – S3-compatible object storage (dev)
 
+<a id="-features"></a>
 ## ⚡ Features
 
 ### 📧 **Email Broadcasting**
@@ -169,6 +174,7 @@ This is a **full-stack monorepo** for a creator publishing platform, containing 
 - Webhook handling for subscription updates
 - Customer portal link generation
 
+<a id="-quick-start"></a>
 ## 🚀 Quick Start
 
 ### Prerequisites
@@ -262,6 +268,7 @@ make e2e              # Run Playwright tests
 make stripe-fake      # Trigger fake Stripe webhook
 ```
 
+<a id="-architecture"></a>
 ## 🏗️ Architecture
 
 ### High-Level Flow
@@ -327,6 +334,7 @@ Broadcast Sent → Deliveries Created
            Analytics Queries (CTR, cohorts)
 ```
 
+<a id="-project-structure"></a>
 ## 📁 Project Structure
 
 ```
@@ -402,6 +410,7 @@ kit-builders-monorepo/
 └── readme.md
 ```
 
+<a id="-api-reference"></a>
 ## 🔌 API Reference
 
 ### Base URL
@@ -551,6 +560,7 @@ GET /v1/exports/broadcast_clicks?broadcast_id=:id
 }
 ```
 
+<a id="-development-guide"></a>
 ## 🛠️ Development Guide
 
 ### Environment Variables
@@ -748,6 +758,7 @@ cd apps/api
 bin/rails db:drop db:create db:migrate db:seed
 ```
 
+<a id="-testing"></a>
 ## 🧪 Testing
 
 ### End-to-End Tests (Playwright)
@@ -804,6 +815,7 @@ cd apps/web
 pnpm test
 ```
 
+<a id="-known-limitations"></a>
 ## ⚠️ Known Limitations
 
 ### **Architecture & Design**
@@ -860,6 +872,7 @@ pnpm test
 - ❌ **No PII encryption** – Emails stored in plaintext
 - ❌ **No data residency** – Single region only
 
+<a id="-deployment"></a>
 ## 🚢 Deployment
 
 ### Docker Production Build
