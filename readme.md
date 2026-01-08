@@ -17,15 +17,11 @@
   </div>
   <br />
   
-  <!-- Demo Video -->
   <div align="center">
-    <a href="https://github.com/user-attachments/assets/6229e26d-0611-4dd4-a64e-0c58ce3ca4bf">
-      <img src="docs/screenshots/dashboard.png" alt="Dashboard Preview" width="100%" style="max-width: 900px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-    </a>
-    <p><em>Click to view demo video</em></p>
+    <video src="https://github.com/user-attachments/assets/6229e26d-0611-4dd4-a64e-0c58ce3ca4bf" controls width="800">
+      Your browser does not support the video tag.
+    </video>
   </div>
-  <br />
-</div>
 
 ## 📋 Table of Contents
 
