@@ -42,7 +42,7 @@
     "@storybook/addon-essentials": "^8.2.9",
     "@storybook/addon-a11y": "^8.2.9",
     "storybook": "^8.2.9",
-    "tailwindcss": "^4.0.0",
+    "tailwindcss": "^4.1.16",
     "@tailwindcss/postcss": "^4.0.0",
     "postcss": "^8.4.47"
   }

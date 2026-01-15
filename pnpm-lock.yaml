@@ -194,11 +194,11 @@ importers:
         specifier: ^4.2.0
         version: 4.2.8
       tailwindcss:
-        specifier: ^4.0.0
-        version: 4.1.13
+        specifier: ^4.1.16
+        version: 4.1.16
       tailwindcss-animate:
         specifier: ^1.0.7
-        version: 1.0.7(tailwindcss@4.1.13)
+        version: 1.0.7(tailwindcss@4.1.16)
       typescript:
         specifier: ^5.9.0
         version: 5.9.2
@@ -264,7 +264,7 @@ importers:
         version: 2.6.0
       tailwindcss-animate:
         specifier: ^1.0.7
-        version: 1.0.7(tailwindcss@4.1.13)
+        version: 1.0.7(tailwindcss@4.1.16)
       zod:
         specifier: ^3.23.8
         version: 3.25.76
@@ -294,8 +294,8 @@ importers:
         specifier: ^8.2.9
         version: 8.6.14(prettier@3.6.2)
       tailwindcss:
-        specifier: ^4.0.0
-        version: 4.1.13
+        specifier: ^4.1.16
+        version: 4.1.16
       typescript:
         specifier: ^5.6.2
         version: 5.9.2
@@ -2157,8 +2157,8 @@ packages:
   '@types/mdx@2.0.13':
     resolution: {integrity: sha512-+OWZQfAYyio6YkJb3HLxDrvnx6SWWDbC0zVPfBRzUk0/nqoDyf6dNxQi3eArPe8rJ473nobTMQ/8Zk+LxJ+Yuw==}
 
-  '@types/node@20.19.13':
-    resolution: {integrity: sha512-yCAeZl7a0DxgNVteXFHt9+uyFbqXGy/ShC4BlcHkoE0AfGXYv/BUiplV72DjMYXHDBXFjhvr6DD1NiRVfB4j8g==}
+  '@types/node@20.19.24':
+    resolution: {integrity: sha512-FE5u0ezmi6y9OZEzlJfg37mqqf6ZDSF2V/NLjUyGrR9uTZ7Sb9F7bLNZ03S4XVUNRWGA7Ck4c1kK+YnuWjl+DA==}
 
   '@types/node@22.18.1':
     resolution: {integrity: sha512-rzSDyhn4cYznVG+PCzGe1lwuMYJrcBS1fc3JqSa2PvtABwWo+dZ1ij5OVok3tqfpEBCBoaR4d7upFJk73HRJDw==}
@@ -4365,6 +4365,9 @@ packages:
   tailwindcss@4.1.13:
     resolution: {integrity: sha512-i+zidfmTqtwquj4hMEwdjshYYgMbOrPzb9a0M3ZgNa0JMoZeFC6bxZvO8yr8ozS6ix2SDz0+mvryPeBs2TFE+w==}
 
+  tailwindcss@4.1.16:
+    resolution: {integrity: sha512-pONL5awpaQX4LN5eiv7moSiSPd/DLDzKVRJz8Q9PgzmAdd1R4307GQS2ZpfiN7ZmekdQrfhZZiSE5jkLR4WNaA==}
+
   tapable@2.2.3:
     resolution: {integrity: sha512-ZL6DDuAlRlLGghwcfmSn9sK3Hr6ArtyudlSAiCqQ6IfE+b+HHbydbYDIG15IfS5do+7XQQBdBiubF/cV2dnDzg==}
     engines: {node: '>=6'}
@@ -6371,7 +6374,7 @@ snapshots:
 
   '@types/mdx@2.0.13': {}
 
-  '@types/node@20.19.13':
+  '@types/node@20.19.24':
     dependencies:
       undici-types: 6.21.0
 
@@ -7560,7 +7563,7 @@ snapshots:
 
   happy-dom@18.0.1:
     dependencies:
-      '@types/node': 20.19.13
+      '@types/node': 20.19.24
       '@types/whatwg-mimetype': 3.0.2
       whatwg-mimetype: 3.0.0
 
@@ -8874,11 +8877,13 @@ snapshots:
 
   tailwind-merge@2.6.0: {}
 
-  tailwindcss-animate@1.0.7(tailwindcss@4.1.13):
+  tailwindcss-animate@1.0.7(tailwindcss@4.1.16):
     dependencies:
-      tailwindcss: 4.1.13
+      tailwindcss: 4.1.16
 
   tailwindcss@4.1.13: {}
+
+  tailwindcss@4.1.16: {}
 
   tapable@2.2.3: {}
 
