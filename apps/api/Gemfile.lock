@@ -154,6 +154,7 @@ GEM
       net-http (>= 0.5.0)
     ffi (1.17.2-aarch64-linux-musl)
     ffi (1.17.2-arm64-darwin)
+    ffi (1.17.2-x86_64-linux-gnu)
     globalid (1.2.1)
       activesupport (>= 6.1)
     i18n (1.14.7)
@@ -166,7 +167,7 @@ GEM
     jmespath (1.6.2)
     json (2.13.2)
     jsonapi-renderer (0.2.2)
-    jwt (2.10.2)
+    jwt (3.1.2)
       base64
     language_server-protocol (3.17.0.5)
     lint_roller (1.1.0)
@@ -202,6 +203,8 @@ GEM
       racc (~> 1.4)
     nokogiri (1.18.9-arm64-darwin)
       racc (~> 1.4)
+    nokogiri (1.18.9-x86_64-linux-gnu)
+      racc (~> 1.4)
     orm_adapter (0.5.0)
     parallel (1.27.0)
     parser (3.3.9.0)
@@ -209,6 +212,7 @@ GEM
       racc
     pg (1.6.2-aarch64-linux-musl)
     pg (1.6.2-arm64-darwin)
+    pg (1.6.2-x86_64-linux)
     pp (0.6.2)
       prettyprint
     prettyprint (0.2.0)
@@ -338,10 +342,10 @@ GEM
     useragent (0.16.11)
     warden (1.2.9)
       rack (>= 2.0.9)
-    warden-jwt_auth (0.11.0)
+    warden-jwt_auth (0.12.0)
       dry-auto_inject (>= 0.8, < 2)
       dry-configurable (>= 0.13, < 2)
-      jwt (~> 2.1)
+      jwt (>= 2.1, < 4)
       warden (~> 1.2)
     websocket-driver (0.8.0)
       base64
@@ -352,6 +356,7 @@ GEM
 PLATFORMS
   aarch64-linux-musl
   arm64-darwin-24
+  x86_64-linux
 
 DEPENDENCIES
   active_model_serializers
