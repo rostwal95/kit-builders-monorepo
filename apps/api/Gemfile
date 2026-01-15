@@ -25,7 +25,7 @@ gem 'devise'
 gem 'devise-jwt'
 
 # Billing
-gem 'stripe', '~> 15.5'
+gem 'stripe', '~> 17.0'
 
 # Webhooks verification
 gem 'ed25519'
