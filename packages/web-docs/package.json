@@ -10,7 +10,7 @@
   },
   "devDependencies": {
     "storybook": "^8.2.9",
-    "@storybook/react": "^8.2.9",
+    "@storybook/react": "^10.0.0",
     "@storybook/addon-essentials": "^8.2.9",
     "@storybook/addon-a11y": "^8.2.9",
     "react": "19.1.0",
